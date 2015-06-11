@@ -8,7 +8,7 @@ File {
   group => 'root'
 }  
 file {
-'/var/www/www.psexercise.com':
+["/var/www", "/var/www/www.psexercise.com"]:
   ensure => 'directory',
   mode => '0755';
 '/var/www/www.psexercise.com/index.html':
