@@ -1,4 +1,4 @@
 class role::webserver {
-include profiles::nginx
+include profiles::nginx::nginx
 include profiles::psexercise
 }
